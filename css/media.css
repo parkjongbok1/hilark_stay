@@ -930,6 +930,7 @@
     display: none;
   }
   .footer .inner .foot_logo {
+    width: 45%;
   }
   .footer .inner .desc {
     display: flex;
