@@ -973,12 +973,13 @@
     display: none;
   }
   .footer .inner .desc p {
-    width: 70%;
-    font-size: 2.2vw;
+    width: 87%;
+    font-size: 2.5vw;
     font-weight: 500;
     color: #2c2c2c;
     margin: 5vw 0;
     text-align: center;
+    line-height: 3vw;
   }
   .footer .inner .desc .btm {
     display: flex;
