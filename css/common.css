@@ -207,9 +207,9 @@ a {
 } */
 .img_cat {
   position: absolute;
-  right: 20px;
-  bottom: 12px;
-  font-size: 12px;
+  right: 3vw;
+  bottom: 2vw;
+  font-size: 2.5vw;
   font-weight: 400;
   color: #ffffff;
 }
