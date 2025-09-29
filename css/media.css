@@ -871,6 +871,7 @@
     display: none;
   }
   .mo_zone {
+    display: block;
   }
   .mo_zone .inner {
     width: 100%;
