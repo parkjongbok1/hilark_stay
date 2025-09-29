@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HILARK STAY</title>
+
+    <!-- <link rel="canonical" href="https://.com" /> -->
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+
+    <meta property="og:image" content="../meta/thumb.jpg" />
+    <link rel="shortcut icon" href="../meta/favicon.ico" />
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/EC_scroll.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        // div, span, strong 등등 class에 img_cat를 넣으면 이미지컷이 생성됨
+        $(".img_cat").text("이미지컷");
+      });
+    </script>
+
+    <!-- <script>
+      if (
+        navigator.userAgent.match(
+          /iPhone|iPad|Mobile|UP.Browser|Android|BlackBerry|Windows CE|Nokia|webOS|Opera Mini|SonyEricsson|opera mobi|Windows Phone|IEMobile|POLARIS/
+        ) != null
+      ) {
+        top.location.href = "../mobile/"; //모바일용 인덱스파일을 띄어라
+      }
+    </script> -->
+  </head>
+  <body>
+    <!-- wrep -->
+    <div class="wrep">
+      <!-- header -->
+      <header class="header" id="common">
+        <div class="inner">
+          <ul class="menuWrap">
+            <li class="qMenu">
+              <a
+                href="javascript:alert('페이지 페이지 준비중입니다.');"
+                onfocus="this.blur()"
+                >About</a
+              >
+              <ul class="ho_menu">
+                <li>
+                  <a
+                    href="javascript:alert('페이지 페이지 준비중입니다.');"
+                    onfocus="this.blur()"
+                    >하이락글램핑 소개</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="javascript:alert('페이지 페이지 준비중입니다.');"
+                    onfocus="this.blur()"
+                    >오시는길</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="qMenu">
+              <a
+                href="javascript:alert('페이지 페이지 준비중입니다.');"
+                onfocus="this.blur()"
+                >Rooms</a
+              >
+              <ul class="ho_menu">
+                <li>
+                  <a
+                    href="javascript:alert('페이지 페이지 준비중입니다.');"
+                    onfocus="this.blur()"
+                    >이지캠핑</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="javascript:alert('페이지 페이지 준비중입니다.');"
+                    onfocus="this.blur()"
+                    >오토캠핑</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="logo_wrap">
+              <h1 class="logo">
+                <a href="index.html">
+                  <img src="image/logo.png" alt="" class="logo_b" />
+                  <img src="image/logo_w.png" alt="" class="logo_w" />
+                </a>
+              </h1>
+            </li>
+
+            <li class="qMenu">
+              <a
+                href="javascript:alert('페이지 페이지 준비중입니다.');"
+                onfocus="this.blur()"
+                >Facilities</a
+              >
+              <ul class="ho_menu">
+                <li>
+                  <a
+                    href="javascript:alert('페이지 페이지 준비중입니다.');"
+                    onfocus="this.blur()"
+                    >부대시설</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="javascript:alert('페이지 페이지 준비중입니다.');"
+                    onfocus="this.blur()"
+                    >주변관광지</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="qMenu">
+              <a
+                href="javascript:alert('페이지 페이지 준비중입니다.');"
+                onfocus="this.blur()"
+                >Stay Guide</a
+              >
+              <ul class="ho_menu">
+                <li>
+                  <a
+                    href="javascript:alert('페이지 페이지 준비중입니다.');"
+                    onfocus="this.blur()"
+                    >공지사항 및 F&Q</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="javascript:alert('페이지 페이지 준비중입니다.');"
+                    onfocus="this.blur()"
+                    >시설안내</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="javascript:alert('페이지 페이지 준비중입니다.');"
+                    onfocus="this.blur()"
+                    >입/퇴실·환불규정</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <header class="mo_header">
+        <div class="inner">
+          <h1 class="logo">
+            <a href="index.html">
+              <img src="image/m/m_logo.png" alt="" />
+            </a>
+          </h1>
+
+          <div class="call">
+            <a href="tel:010-7448-2101">
+              <img src="image/m/call.png" alt="" />
+            </a>
+          </div>
+
+          <div class="menuBtn head_link">
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="meun-bar">
+          <ul id="menu-box" class="menu-box">
+            <li>
+              <div class="link">About</div>
+              <ul class="submenu">
+                <li>
+                  <a
+                    href="javascript:alert('페이지 페이지 준비중입니다.');"
+                    onfocus="this.blur()"
+                    >하이락글램핑 소개</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="javascript:alert('페이지 페이지 준비중입니다.');"
+                    onfocus="this.blur()"
+                    >오시는길</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <div class="link">Rooms</div>
+              <ul class="submenu">
+                <li>
+                  <a
+                    href="javascript:alert('페이지 페이지 준비중입니다.');"
+                    onfocus="this.blur()"
+                    >이지캠핑</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="javascript:alert('페이지 페이지 준비중입니다.');"
+                    onfocus="this.blur()"
+                    >오토캠핑</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <div class="link">Facilities</div>
+              <ul class="submenu">
+                <li>
+                  <a
+                    href="javascript:alert('페이지 페이지 준비중입니다.');"
+                    onfocus="this.blur()"
+                    >부대시설</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="javascript:alert('페이지 페이지 준비중입니다.');"
+                    onfocus="this.blur()"
+                    >주변관광지</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <div class="link">Stay Guide</div>
+              <ul class="submenu">
+                <li>
+                  <a
+                    href="javascript:alert('페이지 페이지 준비중입니다.');"
+                    onfocus="this.blur()"
+                    >공지사항 및 F&Q</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="javascript:alert('페이지 페이지 준비중입니다.');"
+                    onfocus="this.blur()"
+                    >시설안내</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="javascript:alert('페이지 페이지 준비중입니다.');"
+                    onfocus="this.blur()"
+                    >입/퇴실·환불규정</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <!-- main wrapper -->
+      <main class="main wrapper">
+        <!-- sec01 visual -->
+        <section class="sec01 visual">
+          <div class="title">
+            <span>새로운 여정의 시작, 하이락 스테이</span>
+            <h2>A New Journey Begins</h2>
+            <p>
+              일상의 쉼 속에서 느끼는 특별한 경험,<br />
+              곧 그 너머의 하이락 이야기가 펼쳐집니다.
+            </p>
+          </div>
+        </section>
+
+        <!-- sec02 coming -->
+        <section class="sec02 coming">
+          <div class="inner">
+            <div class="item item01">
+              <div class="coming_img ani_L t-delay0_2">
+                <div class="img_cat"></div>
+              </div>
+              <div class="coming_txt ani_R t-delay0_4">
+                <h3>A New Way to Stay</h3>
+                <p>
+                  단순한 스테이를 넘어,<br />
+                  머무는 순간마다 깊은 휴식과 특별한 경험을 담아냅니다.
+                </p>
+                <a
+                  href="javascript:alert('페이지 준비중입니다.');"
+                  onfocus="this.blur()"
+                  >View More +</a
+                >
+              </div>
+            </div>
+
+            <div class="item item02">
+              <div class="coming_txt ani_L t-delay0_4">
+                <h3>A Private Haven for Families</h3>
+                <p>
+                  하이락은 가족만의 프라이빗한 스테이를 위해 새로운 공간을
+                  준비합니다.
+                </p>
+                <a
+                  href="javascript:alert('페이지 준비중입니다.');"
+                  onfocus="this.blur()"
+                  >View More +</a
+                >
+              </div>
+              <div class="coming_img ani_R t-delay0_2">
+                <div class="img_cat"></div>
+              </div>
+            </div>
+
+            <div class="item item03">
+              <div class="coming_img ani_L t-delay0_2">
+                <div class="img_cat"></div>
+              </div>
+              <div class="coming_txt ani_R t-delay0_4">
+                <h3>Spaces for Special Moments</h3>
+                <p>
+                  머무는 순간이 곧 특별한 이야기로 완성되도록 준비하고 있습니다.
+                </p>
+                <a
+                  href="javascript:alert('페이지 준비중입니다.');"
+                  onfocus="this.blur()"
+                  >View More +</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- sec03 banner -->
+        <section class="sec03 banner ani_O">
+          <div class="title">
+            <h2 class="ani t-delay0_2">A Special Moment at Hirak</h2>
+            <p class="ani t-delay0_5">
+              하이락의 새로운 여정, 여러분과 만날 순간을 기다립니다.
+            </p>
+          </div>
+        </section>
+
+        <!-- sec04 future -->
+        <section class="sec04 future">
+          <div class="inner">
+            <div class="items items01">
+              <div class="future_item future_item01 ani_L t-delay0_2">
+                <div class="img_cat"></div>
+              </div>
+              <div class="future_item future_item02 ani t-delay0_4">
+                <div class="img_cat"></div>
+              </div>
+            </div>
+
+            <div class="items items02">
+              <div class="title ani_T t-delay0_3">
+                <h2>Fresh start</h2>
+                <p>
+                  도시에서 벗어나 즐기는 오토스테이의 소박한 휴식에서<br />
+                  시작한 하이락은 머무는 순간마다 새로운 풍경과 경험을 더하며<br />
+                  단순한 쉼을 넘어서는 특별한 이야기를 만들어갑니다.<br />
+                  이미 시작된 변화는 곧 모습을 드러내어 여러분의 상상을 현실로
+                  바꿔갈 것입니다.
+                </p>
+              </div>
+              <div class="future_item future_item03 ani_R t-delay0_5">
+                <div class="img_cat"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- sec05 zone -->
+        <section class="sec05 zone ani_O">
+          <div class="inner">
+            <a
+              href="javascript:alert('페이지 준비중입니다.');"
+              onfocus="this.blur()"
+              class="desc"
+            >
+              <div class="title ani_L t-delay0_2">
+                <h2>Bonfire Zone</h2>
+                <p>
+                  하이락 스테이의 모닥불존에서,<br />
+                  낯선 이와 친구가 되고 가족의 시간이 한층 깊어지는<br />
+                  특별한 순간을 경험하세요.
+                </p>
+              </div>
+            </a>
+            <div class="line ani"></div>
+            <a
+              href="javascript:alert('페이지 준비중입니다.');"
+              onfocus="this.blur()"
+              class="desc"
+            >
+              <div class="title ani_R t-delay0_2">
+                <h2>Facilities</h2>
+                <p>
+                  더 풍성해질 하이락에서,<br />
+                  머무는 순간마다 새로운 이야기와 특별한 경험이 이어지며<br />
+                  여러분의 하루가 조금씩 더 특별하게 채워집니다.
+                </p>
+              </div>
+            </a>
+          </div>
+        </section>
+
+        <!-- sec05 mo_zone -->
+        <section class="sec05 mo_zone ani_O">
+          <div class="inner">
+            <a
+              href="javascript:alert('페이지 준비중입니다.');"
+              onfocus="this.blur()"
+              class="desc"
+            >
+              <div class="title ani_L t-delay0_2">
+                <h2>Bonfire Zone</h2>
+                <p>
+                  하이락 스테이의 모닥불존에서,<br />
+                  낯선 이와 친구가 되고 가족의 시간이 한층 깊어지는<br />
+                  특별한 순간을 경험하세요.
+                </p>
+              </div>
+            </a>
+            <div class="line ani"></div>
+            <a
+              href="javascript:alert('페이지 준비중입니다.');"
+              onfocus="this.blur()"
+              class="desc"
+            >
+              <div class="title ani_R t-delay0_2">
+                <h2>Facilities</h2>
+                <p>
+                  더 풍성해질 하이락에서,<br />
+                  머무는 순간마다 새로운 이야기와 특별한 경험이 이어지며<br />
+                  여러분의 하루가 조금씩 더 특별하게 채워집니다.
+                </p>
+              </div>
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <!-- footer -->
+      <footer class="footer" id="common">
+        <div class="inner">
+          <img src="image/foot_logo.png" alt="" class="foot_logo" />
+          <span class="line"></span>
+          <div class="desc">
+            <div class="top">
+              <a href="#">공지사항 및 F&Q</a>
+              <a href="#">시설안내</a>
+              <a href="#">입/퇴실·환불규정</a>
+            </div>
+            <p>
+              ※ 홈페이지에 사용된 CG, 이미지, 일러스트, 내용, 문구 등은 소비자의
+              이해를 돕기 위해 제작된 것으로 실제와 차이가 있을 수 있습니다.
+            </p>
+            <div class="btm">
+              <span>주소 : 충청북도 제천시 봉양읍 국사봉로 261</span>
+              <span>E-MAIL : thebrandforum@naver.com </span>
+              <span>TLE : 010-7448-2101</span>
+            </div>
+            <h2>Copyright 2025. 브랜드포럼. All rights reserved.</h2>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
