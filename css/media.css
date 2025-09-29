@@ -546,6 +546,14 @@
   }
 }
 @media all and (min-width: 220px) and (max-width: 719px) {
+  .img_cat {
+    position: absolute;
+    right: 3vw;
+    bottom: 2vw;
+    font-size: 2.5vw;
+    font-weight: 400;
+    color: #ffffff;
+  }
   .header {
     display: none;
   }
