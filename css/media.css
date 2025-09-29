@@ -755,6 +755,17 @@
   .visual {
     background: url("../image/visual_bg.png") no-repeat center center;
   }
+  .visual .title span {
+    font-size: 5vw;
+  }
+  .visual .title h2 {
+    font-size: 14vw;
+    margin: 22px 0 30px;
+  }
+  .visual .title p {
+    font-size: 4.5vw;
+    line-height: 7vw;
+  }
   /* coming */
   .coming .inner {
     width: 90%;
