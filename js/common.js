@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 500) {
+    if ($(this).scrollTop() > 300) {
       $(".header").addClass("active");
     } else {
       $(".header").removeClass("active");
@@ -41,5 +41,18 @@ $(document).ready(function () {
 
   $(".menuBtn").click(function () {
     $(".menuBtn, .meun-bar").toggleClass("active");
+  });
+
+  $(".pc_menu_btn").click(function () {
+    $(this).toggleClass("active");
+    $(".pc_stie_map").toggleClass("show");
+
+    if ($(".pc_stie_map").hasClass("show")) {
+      // 메뉴 열리면 스크롤 막기
+      $("html, body").css("overflow", "hidden");
+    } else {
+      // 메뉴 닫으면 스크롤 다시 허용
+      $("html, body").css("overflow", "");
+    }
   });
 });

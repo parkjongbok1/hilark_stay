@@ -1,12 +1,16 @@
 .visual {
   height: 100vh;
+}
+.visual_bg {
+  width: calc(100% - 60px);
+  height: calc(100vh - 130px);
+  margin: 100px auto 0;
   background: url("../image/visual_bg.png") no-repeat right center;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-
-  animation: load_scale 2s both;
+  animation: load_scale 2.5s both;
 }
 .visual .title {
   text-align: center;
